@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.input-container {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-box {
+  margin: 10px 0;
+}
+
+input {
+  width: 120px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result-container {
+  position: relative;
+  margin: 10px auto; /* Вікно відповіді тепер над кнопкою */
+  padding: 20px;
+  background-color: #fff;
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+  font-weight: bold;
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  padding: 10px 40px;
+  border: 1px solid #4CAF50;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 10px;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #555;
+}
