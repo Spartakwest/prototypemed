@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1.header {
+  font-size: 36px;
+  color: #333;
+  margin-top: 50px;
+}
+
+.sex {
+  margin-top: 20px;
+}
+
+.sex--name {
+  font-weight: bold;
+}
+
+.sex-radio {
+  display: none;
+}
+
+.sex-radio + label {
+  background-color: #ccc; /* Сірий фон для всіх кнопок радіо */
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+#male:checked + label {
+  background-color: #0077b6; /* Блакитний фон при виборі "чоловік" */
+  color: #fff;
+}
+
+#female:checked + label {
+  background-color: #ff66b2; /* Рожевий фон при виборі "жінка" */
+  color: #fff;
+}
+
+.generate, .copy-button {
+  position: relative;
+  background-color: #0077b6; /* Блакитний фон для кнопок "Згенерувати" і "Скопіювати" */
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.generate:hover, .copy-button:hover {
+  background-color: #005f8d; /* Темно-блакитний фон при наведенні */
+}
+
+.text {
+  border: 1px solid #0077b6; /* Блакитна рамка навколо div з класом "text" */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto; /* Горизонтальне вирівнювання тексту по центру */
+  font-size: 18px; /* Розмір тексту для адаптації */
+  font-weight: normal; /* Зняття жирності з тексту */
+  text-align: left; /* Вирівнювання тексту по лівій стороні */
+  display: block;
+  width: fit-content; /* Встановлення ширини відповідно до контенту */
+}
