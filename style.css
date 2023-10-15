@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 h1 {
@@ -14,8 +14,8 @@ h1 {
 
 a.button {
   text-decoration: none;
-  color: #fff;
-  background-color: #0077b6;
+  color: white;
+  background-color: #4CAF50; /* Зелений колір кнопки */
   font-weight: bold;
   font-size: 18px;
   padding: 10px 20px;
@@ -26,5 +26,5 @@ a.button {
 }
 
 a.button:hover {
-  background-color: #005f8d;
+  background-color: #007f3f; /* Темно-зелений колір кнопки при наведенні */
 }

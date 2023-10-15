@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.zas {
+  max-width: 400px; /* Зменшено максимальну ширину блоку */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50; /* Зелений колір кнопки */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.copy-button {
+  background-color: #0077b6; /* Зелений колір кнопки копіювання */
+}
+
+button:hover, .copy-button:hover {
+  background-color: #005f8d; /* Темно-зелений колір кнопки при наведенні */
+}
+
+.alert {
+  background-color: #4CAF50; /* Задайте бажаний колір фону */
+  color: white; /* Задайте бажаний колір тексту */
+  padding: 10px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000; /* Щоб повідомлення було поверх інших елементів */
+  border-radius: 5px;
+}
