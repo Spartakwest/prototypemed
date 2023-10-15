@@ -82,9 +82,15 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
-  clipboard.on("success", function (e) {
+  clipboard.on('success', (e) => {
     e.clearSelection();
-    alert("Текст скопійовано!");
+    const copiedAlert = document.createElement('div');
+    copiedAlert.textContent = 'Текст скопійовано!';
+    copiedAlert.className = 'alert';
+    document.body.appendChild(copiedAlert);
+    setTimeout(() => {
+      document.body.removeChild(copiedAlert);
+    }, 2000);
   });
 
   clipboard.on("error", function (e) {

@@ -53,17 +53,17 @@ body {
   background-color: #4CAF50;
   color: white;
   font-weight: bold;
-  padding: 10px 40px;
-  border: 1px solid #4CAF50;
+  padding: 12px 24px; /* Змінено розмір кнопок */
+  border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
   transition: background-color 0.3s;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додана тінь */
 }
 
 .generate:hover, .copy-button:hover {
-  background-color: #555;
+  background-color: #555; /* Темно-зелений колір кнопки при наведенні */
 }
 
 .text {
@@ -77,5 +77,16 @@ body {
   text-align: center; /* Змінено вирівнювання тексту на центр */
   display: block;
   width: 400px; /* Змінено ширину відповідно до генератора ЗАС */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Додана тінь */
+}
+
+.alert {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  border-radius: 5px;
 }
