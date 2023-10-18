@@ -2,6 +2,7 @@ let button = document.querySelector('.generate');
 let zasElements = {
   pv: document.getElementById('pv'),
   ph: document.getElementById('ph'),
+  bc: document.getElementById('bc'),
   l: document.getElementById('l'),
   kep: document.getElementById('kep'),
 };
@@ -29,7 +30,7 @@ function animateTextChange(element, newText) {
 
 document.addEventListener('DOMContentLoaded', function () {
   const copyButton = document.querySelector('.copy-button');
-  const copyText = document.querySelectorAll('.pv, .ph, .l, .kep');
+  const copyText = document.querySelectorAll('.pv, .ph,.bc, .l, .kep');
 
   const clipboard = new ClipboardJS(copyButton, {
     text: (trigger) => {

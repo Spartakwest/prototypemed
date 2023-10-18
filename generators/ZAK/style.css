@@ -17,6 +17,7 @@ body {
 }
 
 .sex--name {
+  font-size: 20px;
   font-weight: bold;
   color: #000; /* Змінено колір на чорний */
 }
@@ -51,8 +52,8 @@ body {
 .generate, .copy-button {
   position: relative;
   background-color: #4CAF50;
+  font-size: 16px;
   color: white;
-  font-weight: bold;
   padding: 12px 24px; /* Змінено розмір кнопок */
   border: none;
   border-radius: 5px;
@@ -63,12 +64,12 @@ body {
 }
 
 .generate:hover, .copy-button:hover {
-  background-color: #555; /* Темно-зелений колір кнопки при наведенні */
+  background-color: #005f8d; /* Темно-зелений колір кнопки при наведенні */
 }
 
 .text {
-  border: 1px solid #000; /* Змінено колір рамки на чорний */
-  padding: 10px;
+  border: 1px solid #ccc; /* Змінено колір рамки на чорний */
+  padding: 20px;
   background-color: #fff;
   border-radius: 5px;
   margin: 0 auto;
