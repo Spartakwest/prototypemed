@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (weight > 0 && height > 0) {
       const bmi = weight / (height * height * 0.01 ** 2);
-      resultDisplay.textContent = bmi.toFixed(2);
+      resultDisplay.textContent = bmi.toFixed(1);
     } else {
       resultDisplay.textContent = '';
     }
