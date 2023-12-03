@@ -30,7 +30,14 @@ document.addEventListener('DOMContentLoaded', function () {
       textArea.select();
       document.execCommand('copy');
       document.body.removeChild(textArea);
-      alert('ІМТ скопійовано!');
+
+      const copiedAlert = document.createElement('div');
+      copiedAlert.textContent = 'ІМТ скопійовано!';
+      copiedAlert.className = 'alert';
+      document.body.appendChild(copiedAlert);
+      setTimeout(() => {
+        document.body.removeChild(copiedAlert);
+      }, 2000);
     }
   });
 });
